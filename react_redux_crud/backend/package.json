@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo\"Error: not test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- ./server.js"
+  },
+  "author": "Leo",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "nodemon": "^1.11.0"
+  }
+}
